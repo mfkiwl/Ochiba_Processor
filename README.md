@@ -2,6 +2,7 @@
 Ochibaは、低リソース消費・高周波数駆動が可能なRISC-V RV32I対応のプロセッサです。
 
 Ochiba is a RISC-V RV32I compatible processor featuring low LUT resource consumption and high frequency drive.
+![ochiba](https://user-images.githubusercontent.com/22812890/40268190-1e9d915a-5ba4-11e8-9a5a-2ed54213575b.jpg)
 
 ![ochiba](https://user-images.githubusercontent.com/22812890/40229307-d2f01dfc-5ace-11e8-9fda-9850d3c526d2.jpg)
 
@@ -12,8 +13,9 @@ Ochiba is a RISC-V RV32I compatible processor featuring low LUT resource consump
 
 ## 高周波数駆動
 競合実装と比較して、同じFPGAに実装した場合駆動周波数が高いです。
+
 参考：
-Intel CycloneV 5CEBA4F23C7N FPGAにて、96MHzでの駆動が可能です。
+Intel CycloneV 5CEBA4F23C7N FPGAにて、100MHzでの駆動が可能です。
 
 ## 環境非依存
 IPを利用せずにすべてVerilogで記述されているため、FPGAベンダーを選びません。
